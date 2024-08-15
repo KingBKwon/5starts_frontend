@@ -1,4 +1,11 @@
-=jobs:
+name: CI/CD 
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
   docker_image_push:
     name: Push to container registry
     runs-on: ubuntu-latest
