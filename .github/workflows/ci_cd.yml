@@ -1,6 +1,4 @@
-name: CI/CD 
-
-name: fastapi
+name: nextjs
 
 on:
   push:
