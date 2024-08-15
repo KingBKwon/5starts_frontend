@@ -1,9 +1,13 @@
 name: CI/CD 
 
+name: fastapi
+
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
 
 jobs:
   docker_image_push:
